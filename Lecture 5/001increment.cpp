@@ -11,7 +11,6 @@ int main(){
     cout<<a<<" inside main() before inc()"<<endl;
     inc(a);
     cout<<a<<" inside main() after inc()"<<endl;
-    cout<<&a;
 
 
     return 0;
