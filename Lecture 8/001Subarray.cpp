@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
+    int arr[] = {10,20,30,40,50};
     int n = sizeof(arr)/sizeof(n);
     for (int i = 0; i <= n-1; i++)
     {

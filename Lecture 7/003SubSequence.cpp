@@ -5,11 +5,11 @@ int main(){
     int n = sizeof(arr)/sizeof(int);
     for (int num = 0; num<(1<<n); num++)
     {
-        for (int i = 0; i <=n-1; i++)
+        for (int k = 0; k <=n-1; k++)
         {
-            if ((num>>i)&1) 
+            if ((num>>k)&1) 
             {
-                cout<<arr[i]<<" ";
+                cout<<arr[k]<<" ";
             }
             
         }
