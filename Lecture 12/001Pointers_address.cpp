@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x =10;
-    cout << "Value of x: " << x << endl;
-    cout << "Address of x: " << &x << endl;
-    cout << "Size of &x: " << sizeof(&x) << endl;
+    int x;
+    x = 10;
+    cout<<"x = "<<x<<endl;
+    cout<<"&x = "<<&x<<endl;
+    cout<<"Size of &x: "<<sizeof(&x)<<endl;
     cout<<endl;
 
     double y = 3.14;
@@ -13,12 +14,11 @@ int main(){
     cout<<"Size of &y: "<<sizeof(&y)<<endl;
     cout<<endl;
 
-    char z = 'A';
+    char z = 'a';
     cout<<"z = "<<z<<endl;
     cout<<"&z = "<<&z<<endl;
-    cout<<"Size of &z: "<<sizeof(&z);
+    cout<<"Size of &z: "<<sizeof(&z)<<endl;
     cout<<endl;
-
 
     return 0;
 }
