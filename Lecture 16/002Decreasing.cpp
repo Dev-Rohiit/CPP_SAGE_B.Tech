@@ -10,7 +10,6 @@ void f(int n){
     //recursive case
     //2. ask your friend to print the numbers from (1 to n-1)
     f(n-1);
-
 }
 int main(){
     int n = 5;
