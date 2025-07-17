@@ -6,10 +6,11 @@ int f(int* arr, int t, int i){
         return -1; // Element not found
     }
     //recursive case
+    // search for the index of the last occ. of the 't' in x[0...i]
     if(arr[i]==t){
         return i; // Element found at index i
     }
-    //Ask your friend to find the element in the rest of the array, i.e arr[i-1..n-1]
+    //ask your friend to search for the index of the last occ. of the 't' in x[0...i-1]
     return f(arr, t, i-1);
 }
 int main(){
