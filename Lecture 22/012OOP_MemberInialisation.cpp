@@ -11,7 +11,7 @@ class customer {
 		char gender;
 		double credits;
 		
-		customer(string n, int a, char g, double c) : name(n), age(a), gender(g), credits(c)  {
+		customer(string n, int a, char g, double c) : name(n), age(a), gender(g), credits(c) {
 			cout << "\ninside parameterised constructor of \'customer\' class\n";
 			// name = n;
 			// age = a;

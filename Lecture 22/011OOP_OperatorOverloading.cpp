@@ -53,7 +53,7 @@ int main() {
 	} else {
 		cout << c2.name << " is richer than " << c1.name << endl;
 	}
-	
+    
 	return 0;
 	
 }

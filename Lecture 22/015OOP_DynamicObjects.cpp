@@ -36,15 +36,15 @@ class customer {
 
 int main() {
 
-	// customer* cptr1 = new customer;
+	customer* cptr1 = new customer;
 
-	// cptr1->name = "reiner";
-	// cptr1->age = 27;
-	// cptr1->gender = 'T';
-	// cptr1->credits = 1000;
+	cptr1->name = "reiner";
+	cptr1->age = 27;
+	cptr1->gender = 'T';
+	cptr1->credits = 1000;
 
 
-	// cptr1->printCustomerInfo();
+	cptr1->printCustomerInfo();
 
 	customer* cptr2 = new customer("armin", 19, 'M', 200);
 
