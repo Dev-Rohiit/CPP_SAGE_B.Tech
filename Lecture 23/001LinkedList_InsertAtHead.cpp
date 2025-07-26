@@ -15,9 +15,8 @@ class ListNode {
 		}
 };
 
-
 void insertAtHead(ListNode*& head, int val){
-// 	// 1. dynamically create a node with the given 'val'
+// 	// 1. dynamically create a List node with the given 'val'
     ListNode* n =  new ListNode(val);
 
 // 	// 2. update the next field of the newly created node 
